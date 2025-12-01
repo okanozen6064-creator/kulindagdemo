@@ -6,22 +6,22 @@ const signatureDishes = [
   {
     name: "Taş Fırında Köy Ekmeği",
     description: "Taze maya ve doğal malzemelerle hazırlanan, içi yumuşak dışı çıtır ekmeğimiz",
-    image: "/images/stone-stairs-green.jpg",
+    image: "/5.jpg",
   },
   {
     name: "Dağ Keçisinden Peynir",
     description: "Yerel dağ keçisinden elde edilen, taze ve besleyici peynir tabağımız",
-    image: "/images/deck-view-snow.png",
+    image: "/6.jpg",
   },
   {
     name: "Orman Gözlemesi",
     description: "Mevsim sebzeleri ve yerel malzemelerin yer aldığı, hafif ve lezzetli gözlemesi",
-    image: "/images/main-lodge-winter.jpg",
+    image: "/7.jpg",
   },
   {
     name: "Dağ Tavası",
     description: "Organik yumurta, dağ sebzeleri ve erzurum peynirinden hazırlanan sıcak porsiyon",
-    image: "/images/cabin-winter.jpg",
+    image: "/8.jpg",
   },
 ]
 

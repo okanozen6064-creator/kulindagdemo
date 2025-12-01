@@ -7,13 +7,13 @@ const rooms = [
     name: "Teras Oda",
     description: "Orman manzaralı balkonlu, rahat ve ferah bir alan. 2 kişi için ideal.",
     features: ["Balkon", "Şömineye Sahip", "Banyo Takımı"],
-    image: "/images/cabins-on-hill.jpg",
+    image: "/9.jpg",
   },
   {
     name: "Dağ Evi Suit",
     description: "Bağımsız yaşam alanı ve özel havuzlu, lüks dinlenme deneyimi.",
     features: ["Oturma Alanı", "Özel Havuz", "Şömineye Sahip"],
-    image: "/images/cabin-winter.jpg",
+    image: "/1.jpg",
   },
 ]
 

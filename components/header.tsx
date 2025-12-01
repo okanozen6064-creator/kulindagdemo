@@ -73,12 +73,12 @@ export default function Header() {
           transition={{ duration: 0.3 }}
           className="md:hidden overflow-hidden"
         >
-          <div className="flex flex-col space-y-3 pt-4 pb-2">
+          <div className="flex flex-col space-y-4 pt-6 pb-4 px-2">
             {navigationItems.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
-                className="font-sans text-sm text-foreground hover:text-primary transition-colors"
+                className="font-sans text-xl font-medium text-foreground hover:text-primary transition-colors py-1 block"
               >
                 {item.label}
               </a>

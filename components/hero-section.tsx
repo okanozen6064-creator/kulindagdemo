@@ -43,12 +43,12 @@ export default function HeroSection() {
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="px-8 py-3 border-2 border-primary text-primary font-sans font-semibold rounded-full hover:bg-primary hover:text-primary-foreground transition-all">
+              <a href="#menu" className="px-8 py-3 border-2 border-primary text-primary font-sans font-semibold rounded-full hover:bg-primary hover:text-primary-foreground transition-all inline-block text-center">
                 Menüyü İncele
-              </button>
-              <button className="px-8 py-3 bg-primary text-primary-foreground font-sans font-semibold rounded-full hover:bg-primary/90 transition-colors">
+              </a>
+              <a href="#accommodation" className="px-8 py-3 bg-primary text-primary-foreground font-sans font-semibold rounded-full hover:bg-primary/90 transition-colors inline-block text-center">
                 Odalara Göz At
-              </button>
+              </a>
             </motion.div>
           </motion.div>
 

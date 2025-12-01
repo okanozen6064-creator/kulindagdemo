@@ -65,7 +65,7 @@ export default function HeroSection() {
               <div className="h-full rounded-2xl overflow-hidden bg-gradient-to-br from-sage/20 to-wood/10 flex items-center justify-center">
                 <div className="w-full h-full bg-gradient-to-br from-primary/10 via-wood/5 to-sage/10 flex items-center justify-center">
                   <img
-                    src="/images/mountain-lodge-forest-view.jpg"
+                    src="/images/main-lodge-winter.jpg"
                     alt="Mountain Lodge Forest View"
                     className="w-full h-full object-cover"
                   />
@@ -76,7 +76,7 @@ export default function HeroSection() {
             {/* Top right */}
             <div className="col-span-1">
               <div className="h-40 rounded-xl overflow-hidden bg-gradient-to-br from-wood/20 to-sage/10 flex items-center justify-center">
-                <img src="/images/cozy-rustic-interior.jpg" alt="Rustic Interior" className="w-full h-full object-cover" />
+                <img src="/images/deck-view-snow.png" alt="Rustic Interior" className="w-full h-full object-cover" />
               </div>
             </div>
 
@@ -84,11 +84,11 @@ export default function HeroSection() {
             <div className="col-span-1">
               <div className="grid grid-cols-2 gap-4">
                 <div className="h-32 rounded-lg overflow-hidden bg-gradient-to-br from-sage/20 to-wood/10 flex items-center justify-center">
-                  <img src="/images/stone-oven-bread.jpg" alt="Stone Oven" className="w-full h-full object-cover" />
+                  <img src="/images/stone-stairs-green.jpg" alt="Stone Oven" className="w-full h-full object-cover" />
                 </div>
                 <div className="h-32 rounded-lg overflow-hidden bg-gradient-to-br from-wood/20 to-sage/10 flex items-center justify-center">
                   <img
-                    src="/images/mountain-autumn-landscape.jpg"
+                    src="/images/cabin-winter.jpg"
                     alt="Mountain Landscape"
                     className="w-full h-full object-cover"
                   />

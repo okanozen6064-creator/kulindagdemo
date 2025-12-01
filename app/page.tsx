@@ -1,24 +1,24 @@
-// Kulindağ Landing Page - Updated Deployment
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Features from "@/components/sections/Features";
-import Gallery from "@/components/sections/Gallery";
-import InfoSection from "@/components/sections/Info";
-import ReservationCTA from "@/components/sections/ReservationCTA";
+"use client"
+import Header from "@/components/header"
+import HeroSection from "@/components/hero-section"
+import ValueProposition from "@/components/value-proposition"
+import MenuTeaser from "@/components/menu-teaser"
+import Accommodation from "@/components/accommodation"
+import ImportantInfo from "@/components/important-info"
+import Footer from "@/components/footer"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-cream-light text-charcoal selection:bg-sienna/30">
+    <div className="w-full overflow-hidden">
       <Header />
-      <Hero />
-      <About />
-      <Features />
-      <Gallery />
-      <InfoSection />
-      <ReservationCTA />
+      <main>
+        <HeroSection />
+        <ValueProposition />
+        <MenuTeaser />
+        <Accommodation />
+        <ImportantInfo />
+      </main>
       <Footer />
-    </main>
-  );
+    </div>
+  )
 }
